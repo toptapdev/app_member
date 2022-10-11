@@ -1,0 +1,35 @@
+
+.datatext{
+  margin-top: -200px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+table,td,th{
+  border: solid black 1px;
+  border-collapse: collapse;
+  font-size: 20px;
+  width: 850px;
+
+}
+th{
+  color: aliceblue;
+}
+td{
+  color:black;
+  height: 40px;
+  
+}
+td button{
+  width: 70px;
+  color: rgb(255, 255, 255);
+  background-color: brown;
+  border: none;
+  border-radius: 5px;
+  height: 30px;
+}
+td button:hover{
+  transition: 0.7s;
+  color: #000;
+  background-color: aliceblue;
+}
